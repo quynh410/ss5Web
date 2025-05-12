@@ -1,18 +1,18 @@
 package ra.com.model;
 
 public class Categories {
-    private int  cataId;
+    private int cataId;
     private String cataName;
-    private String cataDepscription;
+    private String cataDescription;
     private boolean status;
 
     public Categories() {
     }
 
-    public Categories(int cataId, String cataName, String cataDepscription, boolean status) {
+    public Categories(int cataId, String cataName, String cataDescription, boolean status) {
         this.cataId = cataId;
         this.cataName = cataName;
-        this.cataDepscription = cataDepscription;
+        this.cataDescription = cataDescription;
         this.status = status;
     }
 
@@ -32,12 +32,12 @@ public class Categories {
         this.cataName = cataName;
     }
 
-    public String getCataDepscription() {
-        return cataDepscription;
+    public String getCataDescription() {
+        return cataDescription;
     }
 
-    public void setCataDepscription(String cataDepscription) {
-        this.cataDepscription = cataDepscription;
+    public void setCataDescription(String cataDescription) {
+        this.cataDescription = cataDescription;
     }
 
     public boolean isStatus() {
